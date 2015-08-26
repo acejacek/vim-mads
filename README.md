@@ -1,15 +1,13 @@
-VIM Syntax Highlighting for XASM
+VIM Syntax Highlighting for MADS
 ================================
 
 Installation
 ------------
-
-Put xasm.vim in your .vim/syntax directory.
-
-Put these lines in your .vimrc:
-
-    au BufRead,BufNewFile *.asx set filetype=xasm
-    au BufRead,BufNewFile *.asm set filetype=xasm
+    * Manually: Put folders `syntax` and `ftdetect` in your Vim configs directory:
+        * Windows: `%USERPROFILE&\vimfiles`
+        * Rest of world: `~/.vim`
+    * **Recommended!**: Using [Pathogen](https://github.com/tpope/vim-pathogen/)
+        * `git clone https://github.com/skrzyp/vim-mads ~/.vim/bundle/vim-mads`
 
 Screenshot
 ----------
@@ -19,5 +17,5 @@ Screenshot
 Links
 -----
 
-* [xasm](https://github.com/pfusik/xasm)
-* [AtariAge Thread](http://atariage.com/forums/topic/227892-xasm-310-released/)
+* [MADS](https://github.com/pfusik/xasm)
+* [atari.area thread](www.atari.org.pl/forum/viewtopic.php?id=13407)
