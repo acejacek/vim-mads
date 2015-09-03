@@ -8,6 +8,9 @@ Installation
     * Rest of world: `~/.vim`
 * **Recommended**: Using [Pathogen](https://github.com/tpope/vim-pathogen/)
     * `git clone https://github.com/skrzyp/vim-mads ~/.vim/bundle/vim-mads`
+* Using [VAM](https://github.com/MarcWeber/vim-addon-manager#recommended-setup)
+    * Add to vimrc:
+        * `autocmd FileType mads VAMActivate github:skrzyp/vim-mads`
 
 Screenshot
 ----------
